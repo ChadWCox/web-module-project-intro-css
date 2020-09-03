@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+}
+html {
+    font-size:62.5%;
+}
+body {
+    line-height:1.2;
+    font-size:3.5rem;
+    font-family: 'Roboto Mono';
+    color:black;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+section{
+    padding:4% 0;
+}
+nav {
+    text-align:center;
+}
+nav a { 
+    display:inline-block;
+    height:130px;
+    width:300px;
+    padding:1% 0 1% 0;
+    border-radius:40px;
+    margin:2.5% 5% 2.5% 5%;
+}
+header#home{
+    height:25vh;
+    display:inline-block;
+}
+header h2{
+    font-size:3rem;
+}
+header#home div{
+    width:25%;
+    margin:0 0% 0 5%;
+    display:inline-block;
+}
+header#home div img {
+    display:inline-block;
+    width:100%;
+    border-radius:50%;
+    margin:3.5% 0 0 8%; 
+}
+header#home div.text{
+    display:inline-block;
+    width: 60%;
+    text-align:center;
+    font-size:3rem;
+    margin:0% 0% 0% 0%;
+}
+header h1#title{
+    display:inline-block;
+    font-family:'Chelsea Market';
+    font-size:8.5rem;
+}
+
+section.opening {
+     background-color:#DDB9A3;
+     color:white;
+     padding:1.5%;
+     width:95%;
+     text-align:left;
+     display:inline-block;
+     margin:2.5% 2.5% 0% 2.5%; 
+}
+#body{
+    background:white;
+}
+#body.fire {
+    background:white;
+    padding:4%;
+    width:25%;
+    margin:0 auto;
+}
+section#body {
+    width:20%;
+    font-size:2rem;
+    text-align:center;
+    margin:0% 40% 0% 40%
+}
+section#body img{
+    width:60%;
+}
+section#body p span{
+    font-weight:800;
+}
+footer {
+    background-color: #F9E7DC;
+    width:100%;
+    height:5%;
+}
+footer img {
+    height:20vh;
+    width:100%;
+    padding:0;
+}
+.plan {
+    background-color: #FF764E;
+}
+.learn {
+    background-color: #5ed3eb
+}
+.get {
+    background-color: #FFCD69
+}
+.visit {
+    background-color: #FF764E;
+}
+.park {
+    background-color: #5ed3eb
+}
+.involved {
+    background-color: #FFCD69
